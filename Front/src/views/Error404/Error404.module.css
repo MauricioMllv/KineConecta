@@ -1,0 +1,14 @@
+.container {}
+
+.tittle {
+    font-size: 56px;
+    color: black;
+    font-weight: 500;
+    margin: 0;
+}
+
+.description {
+    font-size: 28px;
+    color: black;
+    margin: 0;
+}

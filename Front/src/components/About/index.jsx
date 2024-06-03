@@ -1,0 +1,18 @@
+import img from '../../assets/img/about.png'
+
+const About = () => {
+    return (
+        <section className='flex flex-col justify-center md:p-10'>
+            <div className='grid grid-cols-1 p-5 w-1/2 justify-center mx-auto'>
+                <img className='' src={img} alt="" />
+            </div>
+            <div className='py-5 px-10 mx-10'>
+                <h2 className='text-2xl py-6 px-10'>Lorem ipsum dolor sit amet consectetur.</h2>
+                <p className='text-base text-balance py-4 px-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempora quae voluptates provident iusto sapiente fugiat similique repellendus est voluptatibus, quis vitae harum rerum dolore aperiam, eveniet animi deleniti doloribus? Nesciunt at eum numquam id! Omnis nihil dicta ut tempore facilis ab totam aliquam optio eos quos! Eligendi labore illum repellat dolorum dicta quia aspernatur, id adipisci maiores praesentium ut, inventore distinctio! Ullam minima possimus veritatis autem nesciunt ab voluptatibus magnam, corporis sapiente doloremque, doloribus est eius tempora fugiat quos vel distinctio. Eius saepe eligendi, incidunt aliquid aperiam corporis molestiae illo maiores voluptatum totam consequuntur velit repellat aut ea perspiciatis magni animi ipsa officiis eaque veniam, modi iste numquam error earum? Quia sequi repellendus velit assumenda porro minus eligendi perferendis doloribus enim. Id soluta eligendi alias eum repellendus. Vel non, odit unde ullam itaque hic dolorum aliquam voluptatem laboriosam dolores laudantium omnis sit. Placeat numquam maxime repellendus quidem veniam cum consequuntur excepturi corporis, ab quos ipsum et velit saepe eveniet! Voluptatem accusamus veniam libero quo, dolorem repellendus odio explicabo doloremque ratione quas excepturi tempora nesciunt deleniti velit tempore harum natus totam? Itaque repellendus saepe accusantium inventore perferendis nulla repellat a molestiae aut, tempora ipsa asperiores accusamus animi quaerat voluptate voluptatibus ab in, cumque, pariatur voluptatum reiciendis? Porro aliquid tenetur illo ratione omnis dolor nobis soluta quod beatae distinctio tempore libero, fugiat eius minima quis, expedita incidunt ut! Magnam consectetur temporibus laboriosam, facilis id illo distinctio molestias eveniet repellat minus illum ducimus omnis voluptas, fuga est. Ab aliquid commodi quaerat id.</p>
+                <p className='text-base text-balance py-4 px-10'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, fugiat doloribus. Quos vel ipsam facilis doloribus veniam modi totam illo voluptate, nesciunt temporibus animi corporis maiores dolores necessitatibus, maxime voluptatibus beatae vero. Ut iusto eligendi animi consectetur voluptates repellat veniam similique nobis quod nemo? Esse repudiandae quisquam officia quasi molestiae unde a consequuntur expedita nihil dicta temporibus nisi obcaecati laborum odit animi porro asperiores magni sunt eos voluptatum, quibusdam ipsa. Corrupti, quas, dicta possimus dolor ipsam eveniet perspiciatis amet eaque tempora exercitationem soluta doloremque, pariatur vitae quam culpa iusto architecto aliquam magnam consectetur dignissimos et? Vero repellendus ducimus eum quia explicabo officiis earum sit sapiente, praesentium corporis pariatur ipsum quisquam. Magni veritatis minus officiis atque, adipisci, odit corporis illum molestiae et facere quae ducimus eos nam expedita quis natus non! Numquam reprehenderit atque vitae repellendus tenetur quaerat maxime ipsam ad amet, nulla tempora porro a labore provident vel tempore alias.</p>
+            </div>
+        </section>
+    );
+};
+
+export default About;
